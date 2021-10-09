@@ -1,6 +1,6 @@
 {
   "name": "@motenest/admin",
-  "version": "0.1.0",
+  "version": "0.0.0",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
@@ -9,12 +9,15 @@
     "watch": "ng build --watch --configuration development",
     "test": "ng test"
   },
-  "repository": "https://github.com/leobar37/motenest.git",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/leobar37/motenest.git",
+    "directory": "packages/tau/package"
+  },
   "private": false,
   "publishConfig": {
     "access": "public",
-    "directory": "package",
-    "registry": "https://npm.pkg.github.com/@montenest"
+    "registry": "https://npm.pkg.github.com"
   },
   "dependencies": {
     "@angular/animations": "~12.2.0",
@@ -43,5 +46,6 @@
     "karma-jasmine-html-reporter": "~1.7.0",
     "ng-packagr": "^12.1.1",
     "typescript": "~4.3.5"
-  }
+  },
+  "gitHead": "068b16ccaf466cd77b50782b1beb0f70f4e1b4e5"
 }
