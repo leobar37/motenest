@@ -9,10 +9,12 @@
     "watch": "ng build --watch --configuration development",
     "test": "ng test"
   },
+  "repository": "https://github.com/leobar37/motenest.git",
   "private": false,
   "publishConfig": {
     "access": "public",
-    "directory": "package"
+    "directory": "package",
+    "registry": "https://npm.pkg.github.com/@montenest"
   },
   "dependencies": {
     "@angular/animations": "~12.2.0",
