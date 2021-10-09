@@ -1,6 +1,6 @@
 {
   "name": "@motenest/admin",
-  "version": "0.4.0",
+  "version": "0.3.0",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
@@ -12,12 +12,12 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/leobar37/motenest.git",
-    "directory": "package"
+    "directory": "packages/tau/package"
   },
   "private": false,
   "publishConfig": {
     "access": "public",
-    "directory": "packages/tau/package",
+    "directory": "package",
     "registry": "at https://registry.npmjs.org"
   },
   "dependencies": {
@@ -48,5 +48,5 @@
     "ng-packagr": "^12.1.1",
     "typescript": "~4.3.5"
   },
-  "gitHead": "fb0b27a4385d766ae2045af545e6f2626c1813ac"
+  "gitHead": "068b16ccaf466cd77b50782b1beb0f70f4e1b4e5"
 }

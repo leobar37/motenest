@@ -8,7 +8,7 @@
 1 notice cli v4.0.0
 2 verbose rootPath /media/leobar37/Elements/code/learning/motenest
 3 info versioning independent
-4 verbose session a1ea2ff934d30b5d
+4 verbose session 49b169f972783540
 5 verbose user-agent lerna/4.0.0/node@v16.8.0+x64 (linux)
 6 silly argv {
 6 silly argv   _: [ 'publish' ],
@@ -26,8 +26,8 @@
 14 silly isBehindUpstream main is behind origin/main by 0 commit(s) and ahead by 1
 15 silly hasTags
 16 verbose hasTags true
-17 silly git-describe.sync "@motenest/admin@0.2.0-1-gee8c5c8" => {"lastTagName":"@motenest/admin@0.2.0","lastVersion":"0.2.0","refCount":"1","sha":"ee8c5c8","isDirty":false}
-18 info Looking for changed packages since @motenest/admin@0.2.0
+17 silly git-describe.sync "@motenest/admin@0.3.0-1-g12578e5" => {"lastTagName":"@motenest/admin@0.3.0","lastVersion":"0.3.0","refCount":"1","sha":"12578e5","isDirty":false}
+18 info Looking for changed packages since @motenest/admin@0.3.0
 19 silly checking diff packages/backend
 20 silly no diff found in backend
 21 silly checking diff packages/frontend
@@ -36,8 +36,8 @@
 24 silly found diff in packages/tau/package.json
 25 verbose filtered diff [ 'packages/tau/package.json' ]
 26 verbose updated @motenest/admin
-27 verbose git-describe undefined => "@motenest/admin@0.2.0-1-gee8c5c8"
-28 silly git-describe parsed => {"lastTagName":"@motenest/admin@0.2.0","lastVersion":"0.2.0","refCount":"1","sha":"ee8c5c8","isDirty":false}
+27 verbose git-describe undefined => "@motenest/admin@0.3.0-1-g12578e5"
+28 silly git-describe parsed => {"lastTagName":"@motenest/admin@0.3.0","lastVersion":"0.3.0","refCount":"1","sha":"12578e5","isDirty":false}
 29 info execute Skipping releases
 30 silly lifecycle No script for "preversion" in "@montenest/root", continuing
 31 silly lifecycle No script for "preversion" in "@motenest/admin", continuing
@@ -46,14 +46,14 @@
 34 silly gitAdd [ 'packages/tau/package.json', 'packages/tau/package-lock.json' ]
 35 silly gitCommit Publish
 35 silly gitCommit
-35 silly gitCommit  - @motenest/admin@0.3.0
+35 silly gitCommit  - @motenest/admin@0.4.0
 36 verbose git [
 36 verbose git   'commit',
 36 verbose git   '-F',
-36 verbose git   '/tmp/daae17d1-926e-403a-9aad-e5c468d09f7f/lerna-commit.txt'
+36 verbose git   '/tmp/d5f7f7fe-43fb-4b36-b870-c8e2f944a1f7/lerna-commit.txt'
 36 verbose git ]
-37 silly gitTag @motenest/admin@0.3.0
-38 verbose git [ 'tag', '@motenest/admin@0.3.0', '-m', '@motenest/admin@0.3.0' ]
+37 silly gitTag @motenest/admin@0.4.0
+38 verbose git [ 'tag', '@motenest/admin@0.4.0', '-m', '@motenest/admin@0.4.0' ]
 39 silly lifecycle No script for "postversion" in "@motenest/admin", continuing
 40 silly lifecycle No script for "postversion" in "@montenest/root", continuing
 41 info git Pushing tags...
@@ -61,21 +61,21 @@
 43 info publish Publishing packages to npm...
 44 info Verifying npm credentials
 45 verbose Retrieving npm user profile
-46 http fetch GET 200 https://registry.npmjs.org/-/npm/v1/user 1142ms
+46 http fetch GET 200 https://registry.npmjs.org/-/npm/v1/user 568ms
 47 silly npm profile get received {"tfa":false,"name":"leobar37","email":"usatloqueando@gmail.com","email_verified":true,"created":"2020-09-04T03:32:16.021Z","updated":"2021-10-09T16:19:55.611Z","cidr_whitelist":null}
 48 silly get npm username received {"username":"leobar37","tfa":false,"name":"leobar37","email":"usatloqueando@gmail.com","email_verified":true,"created":"2020-09-04T03:32:16.021Z","updated":"2021-10-09T16:19:55.611Z","cidr_whitelist":null}
 49 silly verifyNpmPackageAccess
-50 http fetch GET 200 https://registry.npmjs.org/-/org/leobar37/package?format=cli 1027ms (cache updated)
+50 http fetch GET 200 https://registry.npmjs.org/-/org/leobar37/package?format=cli 532ms (cache updated)
 51 info Checking two-factor auth mode
 52 verbose Retrieving npm user profile
-53 http fetch GET 200 https://registry.npmjs.org/-/npm/v1/user 317ms
+53 http fetch GET 200 https://registry.npmjs.org/-/npm/v1/user 309ms
 54 silly npm profile get received {"tfa":false,"name":"leobar37","email":"usatloqueando@gmail.com","email_verified":true,"created":"2020-09-04T03:32:16.021Z","updated":"2021-10-09T16:19:55.611Z","cidr_whitelist":null}
 55 silly 2FA false
 56 warn ENOLICENSE Package @motenest/admin is missing a license.
 56 warn ENOLICENSE One way to fix this is to add a LICENSE.md file to the root of this repository.
 56 warn ENOLICENSE See https://choosealicense.com for additional guidance.
 57 silly getCurrentSHA
-58 verbose getCurrentSHA fb0b27a4385d766ae2045af545e6f2626c1813ac
+58 verbose getCurrentSHA 1e996df2927f5b55c3497fd8ca995330e905af3e
 59 silly lifecycle No script for "prepublish" in "@montenest/root", continuing
 60 silly lifecycle No script for "prepare" in "@montenest/root", continuing
 61 silly lifecycle No script for "prepublishOnly" in "@montenest/root", continuing
