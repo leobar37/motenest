@@ -1,0 +1,48 @@
+<!-- byt amount increment -->
+<ng-template #footer>
+  <p>Increment by amount</p>
+  <nz-space class="mx-auto">
+    <nz-input-number [(ngModel)]="amount" *nzSpaceItem [nzMin]="0">
+    </nz-input-number>
+    <button
+      nzType="primary"
+      nz-button
+      (click)="incrementByAmount.emit(amount)"
+      [disabled]="amount == 0"
+      *nzSpaceItem
+    >
+      amount
+    </button>
+  </nz-space>
+</ng-template>
+
+<nz-card class="counter shadow-lg">
+  <h1 class="text-center">Counter</h1>
+  <div class="gridcounter">
+    <button
+      nzHoverable="false"
+      (click)="decreement.emit()"
+      nz-button
+      nzType="primary"
+    >
+      <span> - </span>
+    </button>
+    <div class="cont">
+      <h1>{{ currentValue }}</h1>
+    </div>
+    <button
+      nzHoverable="false"
+      (click)="increment.emit()"
+      nz-button
+      nzType="primary"
+      nzDanger
+    >
+      <span> + </span>
+    </button>
+  </div>
+
+  <div class="w-100 d-block my-3 text-center">
+    <ng-container *ngTemplateOutlet="footer"></ng-container>
+  </div>
+  <!-- <nz-card-meta [nzTitle]="footer"> </nz-card-meta> -->
+</nz-card>

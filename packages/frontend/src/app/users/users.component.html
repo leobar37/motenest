@@ -1,0 +1,23 @@
+<div
+  nz-row
+  class="w-75 py-4 mx-auto shadow-lg"
+  nzJustify="center"
+  nzAlign="top"
+  nzGutter="8"
+  style="margin-top: 150px"
+>
+  <app-form-register
+    (editForm)="editContact($event)"
+    nz-col
+    [contact]="contact$ | async"
+    nzSpan="10"
+    (submitForm)="onContact($event)"
+  ></app-form-register>
+  <app-list-contacts
+    (deleteComment)="deleteComment()"
+    (selectItem)="onSelectItem($event)"
+    [contacts]="contacts$ | async"
+    nz-col
+    nzSpan="12"
+  ></app-list-contacts>
+</div>

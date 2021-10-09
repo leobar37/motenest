@@ -1,0 +1,23 @@
+/* You can add global styles to this file, and also import other style files */
+
+html,
+body {
+  height: 100%;
+}
+body {
+  margin: 0;
+  font-family: Roboto, "Helvetica Neue", sans-serif;
+}
+
+// @import "~bootstrap-utilities";
+body {
+  overflow-x: hidden !important;
+  main {
+    position: absolute !important;
+    width: 100%;
+    top: 0;
+    left: 0;
+    min-height: 100vh;
+    border: 2px solid black;
+  }
+}
