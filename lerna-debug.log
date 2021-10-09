@@ -1,0 +1,7 @@
+42 error Error: Command failed with exit code 128: git tag @motenest/admin@0.1.0 -m @motenest/admin@0.1.0
+42 error fatal: tag '@motenest/admin@0.1.0' already exists
+42 error     at makeError (/media/leobar37/Elements/code/learning/motenest/node_modules/execa/lib/error.js:60:11)
+42 error     at handlePromise (/media/leobar37/Elements/code/learning/motenest/node_modules/execa/index.js:118:26)
+42 error     at processTicksAndRejections (node:internal/process/task_queues:96:5)
+42 error     at async Promise.all (index 0)
+42 error     at async Promise.all (index 0)
