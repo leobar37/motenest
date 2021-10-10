@@ -6,6 +6,6 @@
   },
 ```
 
-```js
+```sh
  npm login --registry=https://npm.pkg.github.com --scope=@saulhardman
 ```

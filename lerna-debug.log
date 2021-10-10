@@ -1,7 +1,8 @@
-40 error Error: Command failed with exit code 128: git tag @motenest/admin@0.4.0 -m @motenest/admin@0.4.0
-40 error fatal: tag '@motenest/admin@0.4.0' already exists
-40 error     at makeError (/media/leobar37/Elements/code/learning/motenest/node_modules/execa/lib/error.js:60:11)
-40 error     at handlePromise (/media/leobar37/Elements/code/learning/motenest/node_modules/execa/index.js:118:26)
-40 error     at processTicksAndRejections (node:internal/process/task_queues:96:5)
-40 error     at async Promise.all (index 0)
-40 error     at async Promise.all (index 0)
+52 warn complete Waiting for 1 child process to exit. CTRL-C to exit immediately.
+53 error Error: Command failed with exit code 128: git tag frontend@0.1.0 -m frontend@0.1.0
+53 error fatal: tag 'frontend@0.1.0' already exists
+53 error     at makeError (/media/leobar37/Elements/code/learning/motenest/node_modules/execa/lib/error.js:60:11)
+53 error     at handlePromise (/media/leobar37/Elements/code/learning/motenest/node_modules/execa/index.js:118:26)
+53 error     at processTicksAndRejections (node:internal/process/task_queues:96:5)
+53 error     at async Promise.all (index 1)
+53 error     at async Promise.all (index 0)
